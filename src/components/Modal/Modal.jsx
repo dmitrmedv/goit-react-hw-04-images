@@ -26,13 +26,13 @@ const closeOnBackDrop = event => {
   }
 };
 
-return createPortal(
-  <div className={css.overlay} onClick={closeOnBackDrop}>
-    <div className={css.modal}>
-      <img src={this.props.largeImageURL} alt="" />
-    </div>
-  </div>,
-  modalRoot
-);
+// return createPortal(
+//   <div className={css.overlay} onClick={closeOnBackDrop}>
+//     <div className={css.modal}>
+//       <img src={this.props.largeImageURL} alt="" />
+//     </div>
+//   </div>,
+//   modalRoot
+// );
 
 export default Modal;
