@@ -1,8 +1,8 @@
-import css from './Modal.module.css';
-import { createPortal } from 'react-dom';
-import { useEffect, useRef } from 'react';
+// import css from './Modal.module.css';
+// import { createPortal } from 'react-dom';
+// import { useEffect, useRef } from 'react';
 
-const modalRoot = document.querySelector('#modal-root');
+// const modalRoot = document.querySelector('#modal-root');
 
 const Modal = () => {
   // componentDidMount() {
@@ -14,17 +14,17 @@ const Modal = () => {
   return;
 };
 
-const escCloseModal = e => {
-  if (e.code === 'Escape') {
-    this.props.toggleModal();
-  }
-};
+// const escCloseModal = e => {
+//   if (e.code === 'Escape') {
+//     this.props.toggleModal();
+//   }
+// };
 
-const closeOnBackDrop = event => {
-  if (event.target === event.currentTarget) {
-    this.props.toggleModal();
-  }
-};
+// const closeOnBackDrop = event => {
+//   if (event.target === event.currentTarget) {
+//     this.props.toggleModal();
+//   }
+// };
 
 // return createPortal(
 //   <div className={css.overlay} onClick={closeOnBackDrop}>
